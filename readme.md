@@ -2,7 +2,7 @@
 
 A simple plugin to import svg files as vue components. This is intended to be used with [rollup-plugin-vue](https://www.npmjs.com/package/rollup-plugin-vue) and is based on [vue-svg-loader](https://www.npmjs.com/package/vue-svg-loader).
 
-**Forked from [e-e-e/rollup-plugin-vue-inline-svg](https://github.com/e-e-e/rollup-plugin-vue-inline-svg)**
+## Forked from [e-e-e/rollup-plugin-vue-inline-svg](https://github.com/e-e-e/rollup-plugin-vue-inline-svg)
 
 **This fork:**
 

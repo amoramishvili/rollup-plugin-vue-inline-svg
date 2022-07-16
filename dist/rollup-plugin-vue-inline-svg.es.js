@@ -30,7 +30,7 @@ function index (options) {
     transform: function (source, id) {
       if (!filter(id)) { return null; }
       return optimizeSvg(source, config, id).then(function (result) {
-        return ("<template><svg v-bind=\"data.attrs\" " + (result.substring(5, result.length)) + "</template>");
+        return ("<template><svg " + (result.substring(5, result.length)) + "</template>");
       });
     },
   };

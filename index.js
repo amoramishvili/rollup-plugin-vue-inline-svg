@@ -30,7 +30,7 @@ export default function (options) {
     transform: (source, id) => {
       if (!filter(id)) return null;
       return optimizeSvg(source, config, id).then((result) => {
-        return `<template functional><svg v-bind="data.attrs" ${result.substring(5, result.length)}</template>`;
+        return `<template><svg v-bind="data.attrs" ${result.substring(5, result.length)}</template>`;
       });
     },
   };
